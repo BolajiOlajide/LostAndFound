@@ -9,6 +9,6 @@ The Project makes use of `REACT` framework for it's front-end and `DJANGO` for i
 **Koya Adegboyega** - Software Developer at Andela
 **Inumidun Amao** - Software Developer at Andela
 
-## Acknowledgments
+## Acknowledgements
 
 Thanks to the organizers of the `Andela Benchers Challenge`.
