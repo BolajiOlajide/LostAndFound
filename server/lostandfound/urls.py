@@ -19,4 +19,5 @@ from django.contrib import admin
 admin.site.site_header = "Lost and Found Administration"
 urlpatterns = [
     url(r'^admin', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
 ]
