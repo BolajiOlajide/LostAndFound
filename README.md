@@ -5,7 +5,6 @@
 Due to the recent events happening around us. We've decided to develop a full stack web application that helps to report misplaced items in the `EPIC TOWER`.
 
 This repository contains two applications:
-e:
 1. A [React app](/web-client) that displays information about the missing items or items that have been found by fellows or staffs at Andela.
 See deployed at ...
 2. A [Django server app](/server) that assists the React app by providing data via a REST API.
@@ -33,7 +32,8 @@ Source code located under `/server`. This Django API provides data such as a lis
 * Set up the Django settings environment variable: `export DJANGO_SETTINGS_MODULE=lostandfound.settings`. To avoid having to do this every time you can add this line to the `activate` script file located in your virtual environment `env/bin/activate`
 * Activate the environment: `source env/bin/activate`
 * Install dependencies: `pip install -r requirements.txt`
-* Make migrations to the database python manage.py migrate
+* Make migrations to the database `python manage.py` migrate
+* Create a superuser with `python manage.py createsuperuser` to log into the admin dashboard.
 * Now you're ready to run the dev server: `python manage.py runserver`
 
 #### Testing
